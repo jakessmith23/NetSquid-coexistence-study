@@ -33,9 +33,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-
-ns.set_qstate_formalism(ns.QFormalism.DM)
-
 class EmitProtocol(NodeProtocol):
     def __init__(self, node, iterations, delay, verbose=False):
       # init parent NodeProtocol
@@ -263,8 +260,9 @@ def run_char_coex_ent_experiment(s_x, s_y, s_z, incident_photons_per_s=0, verbos
   return f
 
 def main():
+    ns.set_qstate_formalism(ns.QFormalism.DM)
+    
     verbose = True
-
     characterize_ref_state = False 
     if characterize_ref_state:
       ### characterize coexisting 1530 reference state 
