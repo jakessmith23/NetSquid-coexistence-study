@@ -1,3 +1,8 @@
+# All experimental values are taken from:
+# Chapman, J. C., Lukens, J. M., Alshowkan, M., Rao, N., Kirby, B. T., & Peters, N. A. (2023). 
+# Coexistent quantum channel characterization using spectrally resolved Bayesian quantum process tomography. 
+# Physical Review Applied, 19(4), 044026.
+
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas
