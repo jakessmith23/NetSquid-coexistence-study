@@ -1,4 +1,7 @@
-
+# All experimental values are taken from
+# Thomas, J. M., Kanter, G. S., & Kumar, P. (2023). 
+# Designing noise-robust quantum networks coexisting in the classical fiber infrastructure. 
+# Optics Express, 31(26), 43035-43047.
 
 import numpy as np
 import matplotlib.pyplot as plt
