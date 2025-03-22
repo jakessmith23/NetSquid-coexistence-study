@@ -1,3 +1,16 @@
+# All experimental values are taken from
+# Thomas, J. M., Yeh, F. I., Chen, J. H., Mambretti, 
+# J. J., Kohlert, S. J., Kanter, G. S., & Kumar, P. (2024). 
+# Quantum teleportation coexisting with classical communications in optical fiber. 
+# Optica, 11(12), 1700-1707.
+# 
+# and 
+#
+# Thomas, Jordan; Yeh, Fei; Chen, Jim; Mambretti, Joe; Kohlert, Scott; Kanter, Gregory; et al. (2024). 
+# Supplementary document for Quantum Teleportation Coexisting with Classical Communications in Optical Fiber - 7260233.pdf. 
+# Optica Publishing Group. Journal contribution. https://doi.org/10.6084/m9.figshare.27316089.v2
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas
